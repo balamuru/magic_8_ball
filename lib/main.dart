@@ -12,20 +12,20 @@ void main() {
           title: Text('Ask Me Anything'),
           backgroundColor: Colors.blue[700],
         ),
-        body: DicePage(),
+        body: EightBallPage(),
       ),
     ),
   );
 }
 
-class DicePage extends StatefulWidget {
-  const DicePage({Key? key}) : super(key: key);
+class EightBallPage extends StatefulWidget {
+  const EightBallPage({Key? key}) : super(key: key);
 
   @override
-  _DicePageState createState() => _DicePageState();
+  _EightBallPageState createState() => _EightBallPageState();
 }
 
-class _DicePageState extends State<DicePage> {
+class _EightBallPageState extends State<EightBallPage> {
   int ballNumber = 1;
 
 
